@@ -1,0 +1,406 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+header{
+    background-color: white;
+    box-shadow: 1px 1px 20px rgb(255, 0, 93);
+    display: flex;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+#logo{
+    margin-top: 0px;
+    font-size: 50px;
+    margin: 20px 0px 0px 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    margin-left: 10px;
+}
+header div ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.header-11{
+    display: flex;
+}
+.header-12{
+    display: flex;
+}
+select{
+    margin-top: 25px;
+}
+.header-12{
+    margin-top: 15px;
+}
+select{
+    border: none;
+}
+select{
+    font-size: 15px;
+}
+.select1{
+    width:78px;
+}
+.select2{
+    width:83px;
+}
+.select3{
+    width:70px;
+}
+.select4{
+    width:93px;
+}
+header p a{
+    margin-left: 20px;
+    font-size: 16.5px;
+}
+.header-right{
+    margin-left: 380px;
+    margin-bottom: 10px;
+}
+.header-mid p{
+    display: inline;
+}
+#sign-in{
+    height:40px;
+    margin: auto 60px auto 20px;
+    border: 1px solid rgb(241, 10, 72);
+    border-radius: 20px;
+    padding: 0px 40px;
+    font-size: 15px;
+    color: rgb(241, 10, 72);
+}
+
+
+
+
+/*container*/
+.container{
+    padding-top: 100px;
+    margin: 0px 180px;
+}
+.container1{
+    display: flex;
+}
+.container1 img{
+    /*box-shadow: 1px 1px 20px rgb(202, 143, 153);*/
+    border: 0.1px solid rgb(195, 192, 192);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.container1-2{
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 0px 20px;
+}
+.container2 h2{
+    padding-top: 30px;
+}
+.container2{
+    font-size: 20px;
+}
+.container2 h2{
+    font-size: 40px;
+    font-weight: 700;
+    /*color: rgb(234, 32, 106);*/
+    color: rgb(252, 80, 129);
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+/*footer*/
+footer{
+    background-color: white;
+    height: 370px;
+    display: flex;
+    margin-bottom: 0px;
+    padding: 0px 10%;
+    padding-top: 20px;
+}
+.div1{
+    width: 20%;
+}
+.div2{
+    width: 20%;
+}
+.div3{
+    width: 20%;
+}
+.div4{
+    width: 20%;
+}
+.div5{
+    width: 20%;
+}
+.footer-1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-h3{
+    margin: 0px;
+    font-size: 35px;
+}
+footer p{
+    margin: 0px;
+}
+footer div div ul{
+    padding: 0px;
+    margin: 0px;
+}
+footer div div ul li{
+    display: inline;
+    margin-left:7px;
+    margin-right: 7px;
+    font-size: 20px;
+}
+.footer1{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% auto;
+}
+.footer2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% auto;
+}
+.footer3{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100% auto;
+}
+.footer3 p{
+    width: 350px;
+}
+.footer3 ul{
+    width: 300px;
+}
+
+
+/*social links*/
+.fa-facebook{
+    border: 1px solid white;
+    padding: 2px;
+}
+.fa-instagram{
+    border: 1px solid white;
+    padding: 2px;
+}
+.fa-twitter{
+    border: 1px solid white;
+    padding: 2px;
+}
+.fa-linkedin{
+    border: 1px solid white;
+    padding: 2px;
+}
+.fa-github{
+    border: 1px solid white;
+    padding: 2px;
+}
+.fa-globe{
+    border: 1px solid white;
+    padding: 3px;
+    margin-top: 2px;
+}
+
+
+
+
+
+
+/*hover*/
+header img:hover{
+    background-color: ;
+}
+#sign-in:hover{
+    background-color: rgb(241, 10, 72);
+    color: white;
+    border-color: rgb(241, 10, 72);
+}
+select:hover, header p a:hover{
+    color: rgb(240, 49, 81);
+}
+.fa-facebook:hover{
+    color: blue;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 2px;
+}
+.fa-instagram:hover{
+    color: rgb(255, 0, 85);
+    border-radius: 10px;
+    background-color: white;
+    padding: 2px;
+    border: 1px solid;
+}
+.fa-twitter:hover{
+    color: rgb(0, 98, 255);
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 2px;
+}
+.fa-linkedin:hover{
+    color: rgb(10, 47, 170);
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 2px;
+}
+.fa-github:hover{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 2px;
+}
+.fa-globe:hover{
+    color: rgb(241, 10, 72);
+    border-radius: 5px;
+    border-color: rgb(241, 10, 72);
+    padding: 3px;
+    padding-bottom: 2px;
+}
+h2:hover{
+    color: rgb(235, 40, 73);
+}
+
+
+/*responsiveness*/
+
+@media screen and (max-width:850px){
+    header{
+        display: inline-block;
+        height: 180px;
+        position: unset;
+    }
+    header select{
+        margin-top: 25px;
+    }
+    .header-11{
+    display: flex;
+    }
+    .header-12{
+        display: flex;
+        margin-left: 40px;
+    }
+    .header-right{
+        margin-left:200px;
+    }
+    .container{
+        margin: auto;
+        padding: 30px;
+    }
+    .container1{
+        display: block;
+    }
+    .container1 img{
+        width: 100%;
+    }
+    footer{
+        display: block;
+        height: 700px;
+    }
+
+    .footer3 p{
+        width: 690px;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    header{
+        display: block;
+        height: 230px;
+        position: unset;
+    }
+    header select{
+        margin-top: 25px;
+    }
+    .header-11{
+    display: flex;
+    }
+    .header-12{
+        display: flex;
+        margin-left: 40px;
+    }
+    .header-right{
+        margin-left:200px;
+    }
+    .container{
+        margin: auto;
+        padding: 30px;
+    }
+    .container1{
+        display: block;
+    }
+    .container1 img{
+        width: 100%;
+    }
+    footer{
+        display: block;
+        height: 750px;
+        width: 100%;
+    }
+
+    .footer3 p{
+        width: 480px;
+    }
+
+}
+
+@media screen and (max-width:380px){
+    header{
+        display: block;
+        height: 230px;
+        position: unset;
+        width: 100%;
+    }
+    header select{
+        margin-top: 25px;
+    }
+    .header-11{
+    display: flex;
+    }
+    .header-12{
+        display: flex;
+        margin-left: 40px;
+    }
+    .header-right{
+        margin-left:200px;
+    }
+    .container{
+        margin: auto;
+        padding: 30px;
+    }
+    .container1{
+        display: block;
+    }
+    .container1 img{
+        width: 100%;
+    }
+    footer{
+        display: block;
+        height: 750px;
+        width: 100%;
+    }
+
+    .footer3 p{
+        width: 350px;
+    }
+
+}
